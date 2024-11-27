@@ -3,66 +3,78 @@
 <head>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Game Demo</title>
+   <link rel="shortcut icon" href="images/favicon.ico">
+   <title>Unity 2D Game</title>
    <link href="./output.css" rel="stylesheet">
+   <style>
+      .tech {
+         font-size: 4rem;
+         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+         margin-bottom: 80px;
+         margin-top: 50px;
+         font-weight: 700;
+         text-align: center;
+         color: 	#1E90FF;
+      }
+      .logo {
+         margin-top: 150px;
+      }
+   </style>
 </head>
 <body class="bg-gray-200 min-h-screen p-4 sm:p-8">
-      <!-- Main Container -->
+   <!-- Main Container -->
    <div class="max-w-5xl mx-auto">
+      <!-- Header Title -->
+      <h1 class="tech">
+         TECHFUSION
+      </h1>
       <!-- Grid Container -->
       <div class="flex flex-col sm:flex-row gap-16 sm:gap-8 mb-16 sm:mb-12">
-         <!-- Grid 1 with Button -->
-         <div class="w-3/4 sm:w-full mx-auto flex-1 flex flex-col gap-8 sm:gap-6">
-               <div class="aspect-square bg-gray-100 rounded-xl shadow-xl hover:shadow-2xl transition-shadow overflow-hidden">
-                  <div class="w-full h-full flex items-center justify-center text-gray-500 bg-cover bg-center bg-no-repeat relative" 
-                       style="background-image: url('../games/Rebuild-Tower/logo-game.jpg')">
-             
-                  </div>
-               </div>
-               <a href="../games/Rebuild-Tower/index.html" class="w-full bg-green-600 hover:bg-green-700 text-white px-8 sm:px-6 py-4 sm:py-3 rounded-full shadow-lg hover:shadow-2xl transition-all text-lg text-center">
-                  Play
-               </a>
-         </div>
 
          <!-- Grid 2 with Button -->
          <div class="w-3/4 sm:w-full mx-auto flex-1 flex flex-col gap-8 sm:gap-6">
             <div class="aspect-square bg-gray-100 rounded-xl shadow-xl hover:shadow-2xl transition-shadow overflow-hidden">
                <div class="w-full h-full flex items-center justify-center text-gray-500 bg-cover bg-center bg-no-repeat relative" 
-                    style="background-image: url('../games/Rising-War/logo-game.jpeg')">
+                    style="background-image: url('images/logo-rising-war.jpeg')">
                 
                </div>
             </div>
-               <a href="../games/Rising-War/index.html" class="w-full bg-green-600 hover:bg-green-700 text-white px-8 sm:px-6 py-4 sm:py-3 rounded-full shadow-lg hover:shadow-2xl transition-all text-lg text-center">
-                  Play
-               </a>
+            <a href="games/rising-war/index.html" class="w-full bg-green-600 hover:bg-green-700 text-white px-8 sm:px-6 py-4 sm:py-3 rounded-full shadow-lg hover:shadow-2xl transition-all text-lg text-center font-bold tracking-wider">
+               Play
+            </a>
          </div>
-
+         
          <!-- Grid 3 with Button -->
          <div class="w-3/4 sm:w-full mx-auto flex-1 flex flex-col gap-8 sm:gap-6">
             <div class="aspect-square bg-gray-100 rounded-xl shadow-xl hover:shadow-2xl transition-shadow overflow-hidden">
                <div class="w-full h-full flex items-center justify-center text-gray-500 bg-cover bg-center bg-no-repeat relative" 
-                    style="background-image: url('../games/Mini-Show-Multiplayer/logo-game.jpeg')">
-          
+                    style="background-image: url('images/logo-shooting.jpeg')">
+                
                </div>
             </div>
-               <a href="../games/Mini-Show-Multiplayer/index.html" class="w-full bg-green-600 hover:bg-green-700 text-white px-8 sm:px-6 py-4 sm:py-3 rounded-full shadow-lg hover:shadow-2xl transition-all text-lg text-center">
-                  Play
-               </a>
+            <a href="games/shooting-multiplayer/index.html" class="w-full bg-green-600 hover:bg-green-700 text-white px-8 sm:px-6 py-4 sm:py-3 rounded-full shadow-lg hover:shadow-2xl transition-all text-lg text-center font-bold tracking-wider">
+               Play
+            </a>
          </div>
-         <!-- Grid 3 with Button -->
+
+         <!-- Grid 1 with Button -->
          <div class="w-3/4 sm:w-full mx-auto flex-1 flex flex-col gap-8 sm:gap-6">
-               <div class="aspect-square bg-gray-100 rounded-xl shadow-md hover:shadow-lg transition-shadow p-4">
-                  <div class="w-full h-full flex items-center justify-center text-gray-500">
-                     No Logo
-                  </div>
+            <div class="aspect-square bg-gray-100 rounded-xl shadow-xl hover:shadow-2xl transition-shadow overflow-hidden">
+               <div class="w-full h-full flex items-center justify-center text-gray-500 bg-cover bg-center bg-no-repeat relative" 
+                     style="background-image: url('images/logo-tower.jpg')">
                </div>
-               <a href="../games/TowerWebGL/TowerWebGL/index.html" class="w-full bg-green-600 hover:bg-green-700 text-white px-8 sm:px-6 py-4 sm:py-3 rounded-full shadow-lg hover:shadow-2xl transition-all text-lg text-center">
-                  Play
-               </a>
+            </div>
+            <a href="games/rebuild-tower/index.html" class="w-full bg-green-600 hover:bg-green-700 text-white px-8 sm:px-6 py-4 sm:py-3 rounded-full shadow-lg hover:shadow-2xl transition-all text-lg text-center font-bold tracking-wider">
+               Play
+            </a>
          </div>
       </div>
-
-     
+      <div class="logo">
+         <img src="images/Unity-Logo.png" 
+              alt="Unity Logo" 
+              style="width: 160px; height: auto;"
+              class="mx-auto">
+      </div>
    </div>
 </body>
 </html>
